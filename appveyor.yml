@@ -43,7 +43,7 @@ on_success:
 - if "%ENABLE_COVERAGE%"=="yes" C:\Python36\Scripts\coveralls --include src --gcov-options="-lp"
 
 artifacts:
-- path: build\mingw\drmingw-*.7z
+- path: build\mingw??\drmingw-*.7z
 
 deploy:
   provider: GitHub
